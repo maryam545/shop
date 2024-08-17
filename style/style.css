@@ -38,7 +38,7 @@ body {
   margin-top: 20px;
   width: 25%;
   height: 100%;
-  box-shadow: 1px 1px 8px black;
+  box-shadow: 0px 0px 3px 0px #252525;
   /* background-color: darkblue; */
 }
 .image {
@@ -60,4 +60,22 @@ body {
   background-color: rgb(140, 199, 248);
   border-radius: 5px;
   padding: 3px;
+}
+.discount-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.discount-2-right {
+  display: flex;
+  align-items: center;
+}
+.discount-2-right-m {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.discount-2-left {
+  display: flex;
+  align-items: center;
 }
